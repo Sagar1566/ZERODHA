@@ -4,25 +4,21 @@ import Awards from './Awards';
 import Pricing from './Pricing';
 import Education from './Education';
 import OpenAccount from '../OpenAccount';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
 import Stats from './Stats';
 
 
 
 function HomePage() {
-    return ( 
+    return (
         <>
-        <Navbar/>
-        <Hero/>
-        <Awards/>
-        <Stats/>
-        <Pricing/>
-        <Education/>
-        <OpenAccount/>
-        <Footer/>
+            <Hero />
+            <Awards />
+            <Stats />
+            <Pricing />
+            <Education />
+            <OpenAccount />
         </>
-     );
+    );
 }
 
 export default HomePage;
